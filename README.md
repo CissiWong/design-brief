@@ -4,7 +4,26 @@ Today you will for the first time work on a real design brief, your goal for tod
 
 Also, remember that designers are picky, we expect all distances, sizes, colors and fonts to be as in the brief. 
 
-[INSERT IMAGES]
+####  Desktop_1440x1024px
+![Design](https://github.com/Technigo/assignment-design-brief/blob/master/Desktop_1440x1024px.png)
+
+####  Tablet_768x1024px
+![Design](https://github.com/Technigo/assignment-design-brief/blob/master/Tablet_768x1024px.png)
+
+####  Mobile_320x1024px
+![Design](https://github.com/Technigo/assignment-design-brief/blob/master/Mobile_320x1024px.png)
+
+####  Margins & Paddings
+![Design](https://github.com/Technigo/assignment-design-brief/blob/master/Desktop_1440x1024px_guides.png)
+![Design](https://github.com/Technigo/assignment-design-brief/blob/master/Tablet_768x1024px_guides.png)
+![Design](https://github.com/Technigo/assignment-design-brief/blob/master/Mobile_320x1024px_guides.png)
+
+#### Fonts & Sizes
+H1: Lora (google font)
+Desktop: 42px, tablet: 28px, mobile: 28px
+
+H2 (bold), p: Lucida Grande
+Desktop: 16/12px, tablet: 14/16(H2)/12px, mobile: 14/12px
 
 ## How to complete this assignment
 
