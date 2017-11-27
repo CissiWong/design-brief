@@ -1,6 +1,6 @@
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 body {
   margin: 0;
@@ -14,12 +14,16 @@ h1 {
   font-size: 42px;
 }
 
-h2, p {
-  font-size: 16px;
+p {
+  font-size: 14px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  color: #3d3d3d;
 }
 
 h2 {
+  font-size: 16px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  color: #3d3d3d;
   font-weight: bold;
 }
 
@@ -37,6 +41,8 @@ h2 {
 .header-section {
   display: flex;
   flex-wrap: wrap;
+  border-bottom: #cccccc solid 1px;
+  margin-bottom: 24px;
 }
 
 .top {
@@ -45,7 +51,7 @@ h2 {
 .img-playground {
   background-image: url("/images/medium-image.png");
   background-size: cover;
-  width: 440px;
+  width: 488px;
   height: 255px;
 }
 
@@ -69,37 +75,23 @@ h2 {
 }
 
 .blog-section {
-  justify-content: space-between;
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
-  border-top: #cccccc solid 1px;
+  justify-content: space-between;
 }
 
 .blog {
   display: flex;
   width: 440px;
-  height: 205px;
+  height: 255px;
+  margin-bottom: 24px;
   border: #cccccc solid 1px;
-}
-
-#first-blog {
-  margin: 24px 24px 24px 0;
-}
-#second-blog {
-  margin: 24px 0 24px 0px;
-}
-
-#third-blog {
-  margin: 0 24px 24px 0;
-}
-
-#fourth-blog {
-  margin: 0 24px 24px 0;
 }
 
 .blog-image {
   width: 200px;
-  height: 205px;
+  height: 253px;
 }
 
 #first-image {
@@ -124,23 +116,36 @@ h2 {
 
 .text-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 200px;
   height: 205px;
+  padding: 16px;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.byline {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 40px;
 }
 
 .writer-image {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
 .bookmark {
   background: url("/images/bookmark.png");
+  background-repeat: no-repeat;
   background-size: contain;
+  width: 20px;
+  height: 20px;
 }
 
 

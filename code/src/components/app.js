@@ -42,13 +42,15 @@ class App extends React.Component {
            <div className="text-container">
             <div className="text" id="first-text">
               <h2>The Boy who tamed the sea</h2>
-                <p>lorem ipsum</p>
+                <p>On any morning, at 5:30, I can handle it, I'll lip out of the dark mouth of my covers and creep through the silver lig...
+                 </p>
                   </div>
-                    <div className="writer-image" id="first-writer">
-                      <p>Per Persson</p>
+                   <div className="byline">
+                    <div className="writer-image" id="first-writer"></div>
+                      <p>Carl Moore Oct 8</p>
                         <div className="bookmark"></div>
-                      </div>
                   </div>
+              </div>
         </article>
 
       <article className="blog" id="second-blog">
@@ -56,14 +58,15 @@ class App extends React.Component {
            <div className="text-container">
             <div className="text" id="second-text">
               <h2>The role of human emotion in the future of transport</h2>
-                <p>lorem ipsum</p>
+                <p>Getting from A to B is about to feel very different.</p>
                   </div>
-                    <div className="writer-image" id="second-writer">
-                      <p>Per Persson</p>
-                      <div className="bookmark"></div>
-                    </div>
+                   <div className="byline">
+                    <div className="writer-image" id="second-writer"></div>
+                      <p>Ben Bland Nov 1</p>
+                    <div className="bookmark"></div>
                 </div>
-              </article>
+            </div>
+        </article>
 
         <article className="blog" id="third-blog">
             <div className="blog-image" id="third-image"></div>
@@ -72,26 +75,28 @@ class App extends React.Component {
                   <h2>The march of the losers</h2>
                     <p>lorem ipsum</p>
                       </div>
-                        <div className="writer-image" id="third-writer">
+                       <div className="byline">
+                        <div className="writer-image" id="third-writer"></div>
                           <p>Per Persson</p>
                           <div className="bookmark"></div>
-                          </div>
-                            </div>
-                </article>
+                        </div>
+                    </div>
+              </article>
 
         <article className="blog" id="fourth-blog">
           <div className="blog-image" id="fourth-image"></div>
            <div className="text-container">
             <div className="text" id="fourth-text">
               <h2>The burning season</h2>
-                <p>lorem ipsum</p>
+                <p>You cannot save everything when the fires come to Northern California</p>
                   </div>
-                      <div className="writer-image" id="fourth-writer">
-                        <p>Per Persson</p>
+                    <div className="byline">
+                      <div className="writer-image" id="fourth-writer"></div>
+                        <p>Lindsey Smith Nov 9</p>
                           <div className="bookmark"></div>
-                            </div>
-                              </div>
-                      </article>
+                      </div>
+                  </div>
+          </article>
       </section>
     </div>
   </div>
