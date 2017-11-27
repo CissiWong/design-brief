@@ -1,33 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  height: auto;
+
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 42px;
+}
+
+h2, p {
+  font-size: 16px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 .main {
-  width: 100%;
   background: #fff;
-  margin: auto 220px auto 220px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .nav {
-  width: 70%;
+
 }
 
 .header-section {
-  width: 70%;
-}
-
-.blog-section {
   display: flex;
   flex-wrap: wrap;
 }
 
-.blog {
-  width: 35%;
+.top {
+  width: 488px;
+}
+.img-playground {
+  background-image: url("/images/medium-image.png");
+  background-size: cover;
+  width: 440px;
+  height: 255px;
 }
 
-article .blog-image #first {
-  background: url("assignment-design-brief/code/public/images/medium-image-puff-1.jpeg");
+.tbn-section {
+  display: flex;
+  width: 488px;
+}
+.start-btn {
+  color: #fff;
+  background-color: #000000;
+  width: 100px;
+  height: 30px;
+  margin: 40px 10px 40px 0;
+}
+.learn-btn {
+  color: #000000;
+  background-color: #fff;
+  width: 100px;
+  height: 30px;
+  margin: 40px 0 40px 0;
+
+}
+
+.blog-section {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: #cccccc solid 1px;
+
+}
+
+.blog {
+  display: flex;
+  width: 440px;
+  height: 207px;
+  border: #cccccc solid 1px;
+}
+
+#first-blog {
+  margin: 24px 24px 24px 0;
+}
+#second-blog {
+  margin: 24px 0 24px 0;
+}
+#third-blog {
+  margin: 0 24px 24px 0;
+}
+#fourth-blog {
+  margin: 0 24px 24px 0;
+}
+
+
+.first-text, .second-text, .third-text, .fourth-text {
+  padding: 16px;
+  height: 207px;
+  width: 220px;
+}
+
+.blog-image, #first-image {
+  background-image: url("/images/medium-image-puff-1.jpeg");
+  background-size: cover;
   width: 200px;
+  height: 207px;
+}
+
+.blog-image, #second-image {
+  background-image: url("/images/medium-image-puff-2.png");
+  background-size: cover;
+  width: 200px;
+  height: 207px;
+}
+
+.blog-image, #third-image {
+  background-image: url("/images/medium-image-puff-3.png");
+  background-size: cover;
+  width: 200px;
+  height: 207px;
+}
+
+.blog-image, #fourth-image {
+  background-image: url("/images/medium-image-puff-4.jpeg");
+  background-size: cover;
+  width: 200px;
+  height: 207px;
+
+}
+
+.writer-image, #first-writer {
+  background-image: url("/images/writer-1.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.writer-image, #second-writer {
+  background-image: url("/images/writer-2.jpeg");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.writer-image, #third-writer {
+  background-image: url("/images/writer-3.jpeg");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.writer-image, #fourth-writer {
+  background-image: url("/images/writer-4.jpeg");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
