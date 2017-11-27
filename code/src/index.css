@@ -28,7 +28,6 @@ h2 {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .nav {
@@ -67,21 +66,19 @@ h2 {
   width: 100px;
   height: 30px;
   margin: 40px 0 40px 0;
-
 }
 
 .blog-section {
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
   border-top: #cccccc solid 1px;
-
 }
 
 .blog {
   display: flex;
   width: 440px;
-  height: 207px;
+  height: 205px;
   border: #cccccc solid 1px;
 }
 
@@ -89,79 +86,80 @@ h2 {
   margin: 24px 24px 24px 0;
 }
 #second-blog {
-  margin: 24px 0 24px 0;
+  margin: 24px 0 24px 0px;
 }
+
 #third-blog {
   margin: 0 24px 24px 0;
 }
+
 #fourth-blog {
   margin: 0 24px 24px 0;
 }
 
-
-.first-text, .second-text, .third-text, .fourth-text {
-  padding: 16px;
-  height: 207px;
-  width: 220px;
+.blog-image {
+  width: 200px;
+  height: 205px;
 }
 
-.blog-image, #first-image {
+#first-image {
   background-image: url("/images/medium-image-puff-1.jpeg");
   background-size: cover;
-  width: 200px;
-  height: 207px;
 }
 
-.blog-image, #second-image {
+#second-image {
   background-image: url("/images/medium-image-puff-2.png");
   background-size: cover;
-  width: 200px;
-  height: 207px;
 }
 
-.blog-image, #third-image {
+#third-image {
   background-image: url("/images/medium-image-puff-3.png");
   background-size: cover;
-  width: 200px;
-  height: 207px;
 }
 
-.blog-image, #fourth-image {
+#fourth-image {
   background-image: url("/images/medium-image-puff-4.jpeg");
   background-size: cover;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
   width: 200px;
-  height: 207px;
-
+  height: 205px;
 }
 
-.writer-image, #first-writer {
+.writer-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.bookmark {
+  background: url("/images/bookmark.png");
+  background-size: contain;
+}
+
+
+#first-writer {
   background-image: url("/images/writer-1.png");
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  background-size: contain;
 }
 
-.writer-image, #second-writer {
+#second-writer {
   background-image: url("/images/writer-2.jpeg");
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  background-size: contain;
 }
 
-.writer-image, #third-writer {
+#third-writer {
   background-image: url("/images/writer-3.jpeg");
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  background-size: contain;
 }
 
-.writer-image, #fourth-writer {
+#fourth-writer {
   background-image: url("/images/writer-4.jpeg");
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  background-size: contain;
 }
