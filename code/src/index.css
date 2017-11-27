@@ -3,3 +3,31 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.main {
+  width: 100%;
+  background: #fff;
+  margin: auto 220px auto 220px;
+}
+
+.nav {
+  width: 70%;
+}
+
+.header-section {
+  width: 70%;
+}
+
+.blog-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog {
+  width: 35%;
+}
+
+article .blog-image #first {
+  background: url("assignment-design-brief/code/public/images/medium-image-puff-1.jpeg");
+  width: 200px;
+}
